@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2f65d1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(202, 66, 184);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #b8e01c;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,108 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+body
+{
+    margin: 0;
+}
+#root
+{
+    /* border: 1px solid; */
+    padding: 1vw;
+}
+.App
+{
+    /* border: 1px solid; */
+    padding: .1vw;
+    width: 25vw;
+    margin: auto;
+}
+.container
+{
+    border: 1px solid;
+    padding: .5vw;
+    width: 95.4%;
+}
+
+.AddInputButtonBox
+{
+    /* border: 1px solid; */
+    display: flex;
+    width: 99.5%;
+}
+.AddInputButton
+{
+    /* border: 1px solid; */
+    outline: none;
+    width: 10%;
+    height: 2.45vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.AddInput
+{
+    /* border: 1px solid; */
+    outline: none;
+    width: 90%;
+    height: 2vw;
+    padding: .1vw .4vw;
+    font-size: 1.5vw;
+}
+.AllTodo{
+    margin-top: .4vw;
+    /* border: 1px solid; */
+    height: 15vw;
+    
+    overflow-y: auto;
+    width: 100%;
+}
+
+.NotDoneItemContainer,.DoneItemContainer
+{
+    border: 0px solid;
+    width: 99%;
+}
+.NotDoneItemBox,.DoneItemBox
+{
+    /* border: 1px solid; */
+    width: 94.6%;
+    padding: .4vw .6vw;
+    display: flex;
+    align-items: center;
+}
+.NotDoneChecbox,.DoneItemCheckboxBox
+{
+    width: 10%;
+    height: 2vw;
+}
+.NotDoneItem,.DoneItemCheckbox
+{
+    /* border: 1px solid; */
+    font-size: 1.6vw;
+}
+.ShowCompletedItem
+{
+    /* border: 1px solid; */
+    margin-top: .4vw;
+    font-size: 1.4vw;
+}
+
+.DoneItemCheckbox
+{
+    text-decoration: line-through;
+}
+.DeleteButton
+{
+    /* border: 1px solid; */
+    margin-left: .4vw;
+    outline: none;
+    width: 25%;
+    height: 2.2vw;
+    padding: .2vw .4vw;
+    font-size: 1.4vw;
+    cursor: pointer;
 }
